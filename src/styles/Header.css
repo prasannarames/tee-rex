@@ -1,0 +1,40 @@
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 1rem;
+  width: 100%;
+}
+.nav--logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav--list {
+  display: flex;
+  align-items: center;
+}
+.nav--list-item {
+  list-style: none;
+  margin: 0.5rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  padding: 4px 6px;
+}
+.nav--list-item:hover {
+  background-color: white;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.cart-count {
+  padding: 0 3px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 3px;
+}
